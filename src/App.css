@@ -9,14 +9,13 @@
     'main'
     'footer';
   grid-template-columns: 1fr;
-  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-rows: 5rem 1fr 15rem;
   height: 100%;
   margin: -.5rem;
 }
 
 header{
    grid-area: header;
-   background-color: #29AB87;
 }
 
 main{
@@ -27,5 +26,5 @@ main{
 
 footer{
    grid-area: footer;
-   background-color: #29AB87;
+   overflow: hidden;
 }
