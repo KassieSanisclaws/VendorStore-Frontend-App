@@ -9,9 +9,9 @@
     'main'
     'footer';
   grid-template-columns: 1fr;
-  grid-template-rows: 5rem 1fr 15rem;
+  grid-template-rows: 5rem 1fr 13rem;
   height: 100%;
-  margin: -.5rem;
+ 
 }
 
 header{
@@ -20,8 +20,9 @@ header{
 
 main{
   grid-area: main;
-  padding: 1rem; 
-  background-color: aqua;
+  padding: 5px;
+  margin-top: .5vh;
+  margin-bottom: 2vh;
 }
 
 footer{
