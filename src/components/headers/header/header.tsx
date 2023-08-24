@@ -21,7 +21,7 @@ export function Header(){
 
                    <Stack direction="row" spacing={2}>
                         <Button color="inherit" >
-                            <Link style={{textDecoration: "none", color: "#fff" }} 
+                           <Link style={{textDecoration: "none", color: "#fff" }} 
                                to="/about" >
                                {"About"}
                             </Link>

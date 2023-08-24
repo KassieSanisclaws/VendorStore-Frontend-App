@@ -6,12 +6,13 @@ import { Header } from './components/headers/header/header';
 import { PublicPage } from './main-layout/publicPage';
 
 
+
 function App() {
   return (
-   <BrowserRouter>
-      <div className="grid-container">
+   <BrowserRouter>  
+      <div className="grid-container">  
         <header><Header /></header>
-
+ 
           <main>
             <Routes>
                 <Route path="/" index element={<PublicPage />}/>
@@ -19,7 +20,7 @@ function App() {
          </main>
 
         <footer><Footer /></footer>
-     </div>
+     </div> 
    </BrowserRouter>
   );
 }
